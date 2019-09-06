@@ -3,4 +3,4 @@ todos:
 - add pagination
 - make about page
 
-![book-shelf](./assets/images/book-shelf.pngg)
+![book-shelf](./assets/images/book-shelf.png)
