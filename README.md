@@ -1,4 +1,4 @@
-Borrowed Book List app made with Angular. 
+Borrowed Book List app made with Angular. Simulated API to demonstrate get, post, delete and put requests. 
 
 todos: 
 - add pagination
