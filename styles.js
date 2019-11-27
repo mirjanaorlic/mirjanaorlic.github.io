@@ -621,9 +621,9 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/macbookair/Desktop/book-shelf/src/styles.css */"./src/styles.css");
-__webpack_require__(/*! /Users/macbookair/Desktop/book-shelf/src/assets/css/bootstrap.css */"./src/assets/css/bootstrap.css");
-module.exports = __webpack_require__(/*! /Users/macbookair/Desktop/book-shelf/node_modules/font-awesome/css/font-awesome.css */"./node_modules/font-awesome/css/font-awesome.css");
+__webpack_require__(/*! /Users/macbookair/Portfolio/book-shelf/src/styles.css */"./src/styles.css");
+__webpack_require__(/*! /Users/macbookair/Portfolio/book-shelf/src/assets/css/bootstrap.css */"./src/assets/css/bootstrap.css");
+module.exports = __webpack_require__(/*! /Users/macbookair/Portfolio/book-shelf/node_modules/font-awesome/css/font-awesome.css */"./node_modules/font-awesome/css/font-awesome.css");
 
 
 /***/ })

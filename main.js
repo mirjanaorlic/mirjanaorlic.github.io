@@ -663,7 +663,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<table class=\"table table-striped\">\n    <thead>\n      <tr>\n        <th>Title<button class=\"btn btn-link\"><span class=\"fa fa-sort\"></span></button> </th>\n        <th>Author<button class=\"btn btn-link\"><span class=\"fa fa-sort\"></span></button> </th>\n        <th>Year <button class=\"btn btn-link\"><span class=\"fa fa-sort\"></span></button> </th>\n        <th>Country <button class=\"btn btn-link\"><span class=\"fa fa-sort\"></span></button> </th>\n        <th>Borrower<button class=\"btn btn-link\"><span class=\"fa fa-sort\"></span></button> </th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr *ngFor=\"let book of books\">\n        <td>{{ book.title }}</td>\n        <td>{{ book.author }}</td>\n        <td>{{ book.year }}</td>\n        <td>{{ book.country }}</td>\n        <td>{{ book.borrower }}</td>\n        <td><button class=\"btn btn-link\" (click)=\"onDelete(book._id)\"><span class=\"fa fa-remove\"></span></button></td>\n        <td><button class=\"btn btn-link\" [routerLink]=\"['/books/', book._id]\"><span class=\"fa fa-edit\"></span></button></td>\n      </tr>\n    </tbody>\n  </table>\n  "
+module.exports = "<table class=\"table table-striped table-responsive-sm\">\n    <thead>\n      <tr>\n        <th>Title<button class=\"btn btn-link\"><span class=\"fa fa-sort\"></span></button> </th>\n        <th>Author<button class=\"btn btn-link\"><span class=\"fa fa-sort\"></span></button> </th>\n        <th>Year <button class=\"btn btn-link\"><span class=\"fa fa-sort\"></span></button> </th>\n        <th>Country <button class=\"btn btn-link\"><span class=\"fa fa-sort\"></span></button> </th>\n        <th>Borrower<button class=\"btn btn-link\"><span class=\"fa fa-sort\"></span></button> </th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr *ngFor=\"let book of books\">\n        <td>{{ book.title }}</td>\n        <td>{{ book.author }}</td>\n        <td>{{ book.year }}</td>\n        <td>{{ book.country }}</td>\n        <td>{{ book.borrower }}</td>\n        <td><button class=\"btn btn-link\" (click)=\"onDelete(book._id)\"><span class=\"fa fa-remove\"></span></button></td>\n        <td><button class=\"btn btn-link\" [routerLink]=\"['/books/', book._id]\"><span class=\"fa fa-edit\"></span></button></td>\n      </tr>\n    </tbody>\n  </table>\n  "
 
 /***/ }),
 
@@ -737,7 +737,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<img src=\"../../../assets/images/books.jpg\" alt=\"books\" class=\"img-fluid rounded\">"
+module.exports = "<img src=\"../../../assets/images/books.jpg\" alt=\"books\" class=\"img-fluid rounded img-responsive\">"
 
 /***/ }),
 
@@ -905,7 +905,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/macbookair/Desktop/book-shelf/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /Users/macbookair/Portfolio/book-shelf/src/main.ts */"./src/main.ts");
 
 
 /***/ })
